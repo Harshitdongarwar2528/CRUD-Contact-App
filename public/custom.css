@@ -44,14 +44,35 @@ body {
     font-size: 14px;
     line-height: 1.5;
     border-radius: 50%;
-    background: #e3755d;
     color: #fff;
     border: none;
     transition: all 0.3s ease;
 }
 
-.btn-circle:hover {
-    background: #e65235;
+/* Show button (blue) */
+.btn-show {
+    background: #3498db;
+}
+.btn-show:hover {
+    background: #2c80b4;
+    transform: scale(1.1);
+}
+
+/* Update button (green) */
+.btn-update {
+    background: #2ecc71;
+}
+.btn-update:hover {
+    background: #27ae60;
+    transform: scale(1.1);
+}
+
+/* Delete button (red) */
+.btn-delete {
+    background: #e74c3c;
+}
+.btn-delete:hover {
+    background: #c0392b;
     transform: scale(1.1);
 }
 
